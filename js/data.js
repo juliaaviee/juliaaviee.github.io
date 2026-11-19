@@ -1,24 +1,31 @@
 // Dados dos projetos - adicione ou remova entradas conforme necessário
 export const projects = [
   {
-    title: "Data Lake Automation",
-    description: "Pipeline ETL em Airflow com Snowflake e dbt, entrega de dados limpa e versionada.",
-    badges: ["badge-data"],
-    repo: "https://github.com/julia/data-lake-automation",
-    link: "https://julia.github.io/data-lake-automation"
+    title: "Extrator API Compras.gov / ComprasNet",
+    description: "Pipeline automatizado em Python para extração, tratamento e estruturação de dados abertos de licitações e contratos federais.",
+    badges: ["badge-data", "badge-dev"],
+    repo: "https://github.com/juliaaviee/extrator_API_Compras_Net",
+    link: ""
   },
   {
-    title: "Realtime Analytics Dashboard",
-    description: "Dashboard interativo usando React (static) e D3.js para visualizações de streams Kafka.",
-    badges: ["badge-bi", "badge-dev"],
-    repo: "https://github.com/julia/realtime-dashboard",
-    link: "https://julia.github.io/realtime-dashboard"
+    title: "Otimização de Portfólio (Markowitz & HRP)",
+    description: "Modelagem quantitativa em Python comparando Fronteira Eficiente de Markowitz e Hierarchical Risk Parity (HRP) para alocação de ativos.",
+    badges: ["badge-ml", "badge-dev"],
+    repo: "https://github.com/juliaaviee",
+    link: ""
   },
   {
-    title: "ML Model Registry",
-    description: "Serviço simples de registro de modelos com FastAPI e armazenamento S3, CI/CD via GitHub Actions.",
-    badges: ["badge-ml"],
-    repo: "https://github.com/julia/ml-model-registry",
-    link: "https://julia.github.io/ml-model-registry"
+    title: "Clusterização de Clientes (K-Means & Apriori)",
+    description: "Segmentação não supervisionada e regras de associação para identificação de padrões de consumo e comportamento.",
+    badges: ["badge-ml", "badge-data"],
+    repo: "https://github.com/juliaaviee",
+    link: ""
+  },
+  {
+    title: "Dashboard Executivo de Vendas & Lucratividade",
+    description: "Painel interativo em Power BI com modelagem dimensional e KPIs financeiros para acompanhamento comercial.",
+    badges: ["badge-bi", "badge-data"],
+    repo: "https://github.com/juliaaviee",
+    link: ""
   }
 ];
